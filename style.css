@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    font-family: verdana, sans-serif;
+  }
+  
+  .cardTitle {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    color: transparent;
+    font-size: 40px;
+    background: linear-gradient(to right, purple 70%, black) 30%;
+    background-clip: text;
+  }
+  
+  .card1 {
+    position: relative;
+    border: 1px solid white;
+    padding: 10px 40px;
+    padding-bottom: 30px;
+    top: 40px;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 10px purple;
+    text-align: center;
+  }
+  
+  .inputElement {
+    display: flex;
+  }
+  
+  .cardText {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  #text-input {
+    width: 100%;
+    left: 70px;
+    top: 80px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 3px solid purple;
+    text-align: center;
+  }
+  
+  #check-btn {
+    margin-left: 15px; 
+    padding: 13px 30px;
+    border-radius: 18px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  #check-btn:active {
+    transform: scale(0.9);
+  }
+  
+  /* result */
+  
+  .hidden {
+      display: none;
+  }
+  
+  #result {
+    margin: 20px auto 0;
+    text-align: center;
+    top: 140px;
+    font-size: 25px;
+  }
+  
+  /* description */
+  
+  .card2 {
+    position: relative;
+    border: 1px solid darkgreen;
+    background-color: darkgreen;
+    width: 480px;
+    height: 180px;
+    margin: auto;
+    top: 80px;
+    padding: 0;
+    border-radius: 20px;
+  }
+  
+  .descText {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 20px 20px;
+  }
